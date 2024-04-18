@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #292a2b;
+    font-family: "Cairo", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1156px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputs-wrapper {
+    width: 500px;
+    display: flex;
+    margin-left: auto;
+    padding-top: 70px;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.inputs-and-error-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+.sura-input {
+    border: 0;
+    width: 300px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 60px;
+    font-family: "Cairo", sans-serif;
+    box-shadow: 0px 0px 10px 2px #fff;
+}
+
+#submitBtn {
+    border: 0;
+    width: 100px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 60px;
+    font-family: "Cairo", sans-serif;
+    box-shadow: 0px 0px 10px 2px #fff;
+}
+
+.sura-ul {
+    width: 500px;
+    display: flex;
+    margin-left: auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-right: auto;
+    align-items: center;
+    padding-bottom: 20px;
+    list-style-type: none;
+    flex-direction: column;
+    background-color: #a5a5a5;
+    justify-content: space-around;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.sura-li {
+    width: 390px;
+    display: flex;
+    color: #292a2b;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 10px;
+    background: #c0c0c0;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.sura-id {
+    color: #fff;
+    /* padding-left: 40px; */
+}
+
+.sura-name {
+    width: 300px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: transparent;
+}
+
+.error-text {
+    color: #fff;
+    display: none;
+}
